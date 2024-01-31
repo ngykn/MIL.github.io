@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-color: burlywood;
+}
+
+.topnav {
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.Title {
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.search {
+    position: relative;
+    border-radius: 20px;
+    width: 30%;
+    height: 70%;
+    margin: 7px 70px;
+}
+
+.sidebar {
+    position: absolute;
+    width: 60px;
+    height: 850px;
+    background-color: #222222ce;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    overflow: hidden;
+    transition: width .76s ease;
+
+    align-items: stretch;
+}
+
+.sidebar:hover {
+    width: 200px;
+}
+
+.navOption {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px 20px ;
+    justify-content: center;
+}
+
+.navOption:hover {
+    border: 2px, solid;
+    border-radius: 2px;
+}
+.Content {
+    position: absolute;
+    top: 50px;
+    margin: 100px;
+}
+
+.Text {
+    text-align: justify;
+}

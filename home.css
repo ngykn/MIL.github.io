@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the body height to the full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+.Content {
+    text-align: center;
+}
+
+.Name{
+    display: inline-block;
+    color: aliceblue;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.Name:hover {
+    color: black;
+    background-color: darkgray;
+    padding: 20px 35px 20px 35px ;
+}
+
+.Link {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.Link:hover {
+    color: red;
+}
